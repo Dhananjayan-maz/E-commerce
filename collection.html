@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASTRA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<!--Navbar-->
+<body>
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbar-links">
+            <p class="navabar-link"><a href="index.html">Home</a></p>
+            <p class="navabar-link"><a href="collection.html">Collections</a></p>
+            <p class="navabar-link"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="navbar-menu-toggle" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!--Side navbar-->
+    <div class="side-navbar-links">
+        <p style="text-align: right;" onclick="closenavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <p class="side-navabar-link"><a href="index.html">Home</a></p>
+        <p class="side-navabar-link"><a href="collection.html">Collections</a></p>
+        <p class="side-navabar-link"><a href="contact.html">Contact</a></p>
+    </div>
+<!--product-->
+<div class="product-section">
+    <form class="product-search">
+        <input type="text" id="search" placeholder="Search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </form>
+    <div class="products" id="product">
+        <div class="products-box">
+            <img src="img5.jpeg">
+            <p>White Shirt</p>
+        </div>
+        <div class="products-box">
+            <img src="img3.jpeg">
+            <p>Kurthi</p>
+        </div>
+        <div class="products-box">
+            <img src="img4.jpeg">
+            <p>Baggi</p>
+        </div>
+
+        <div class="products-box">
+            <img src="img5.jpeg">
+            <p>Rediis</p>
+        </div>  
+        <div class="products-box">
+            <img src="img3.jpeg">
+            <p>Black Shirt</p>
+        </div>
+        <div class="products-box">
+            <img src="img3.jpeg">
+            <p>Phant</p>
+        </div>
+        <div class="products-box">
+            <img src="img4.jpeg">
+            <p>T-shirt</p>
+        </div>
+
+        <div class="products-box">
+            <img src="img5.jpeg">
+            <p>Shorts</p>
+        </div>  
+        
+    </div>
+</div>
+    <!--Footer-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box1">
+                <h2 class="headingtx">Nostra</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, debitis nam? Corrupti nostrum, reiciendis necessitatibus magni velit tenetur. Mollitia, nam.</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+        <p>@2025 Nastra.com</p>
+    </div>
+    <script src="collection.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
