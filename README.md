@@ -23,11 +23,11 @@ ecommerce-frontend/
 
 │── /assets
 
-│     ├── /images
+    │     ├── /images
 
-│     ├── /css
+    │     ├── /css
 
-│     ├── /js
+    │     ├── /js
 
 │── README.md
 
