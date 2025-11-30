@@ -1,7 +1,7 @@
-🛒 Simple E-Commerce Frontend Website
+# Simple E-Commerce Frontend Website🛒
 
-A clean and responsive frontend-only e-commerce website built using HTML, CSS, and JavaScript.
-This project showcases product listing, product details, cart UI, and basic interactions — ideal for beginners learning web development.
+## A clean and responsive frontend-only e-commerce website built using HTML, CSS, and JavaScript.
+This project includes product collections, contact page, cart UI, and essential e-commerce interactions — ideal for beginners learning web development.
 
 //Tech Stack
 
@@ -30,6 +30,7 @@ ecommerce-frontend/
 │     ├── /js
 
 │── README.md
+
 
 Contributing
 
